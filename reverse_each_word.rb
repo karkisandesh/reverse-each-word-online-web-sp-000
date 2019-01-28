@@ -10,5 +10,6 @@ def reverse_each_word(sentence)
   rev_array = [ ] 
   array.collect do |item|
    rev_array.push("#{item.reverse}")
+   return rev_array.join(" ")
   end
 end
