@@ -4,6 +4,6 @@ def reverse_each_word(sentence)
   array.each_with_index do |item, index|
     rev_array.push("#{item.reverse(index)}")
   end
-  
+  rev_array
   
 end
